@@ -1,0 +1,181 @@
+/* line 1, _application.scss */
+*, body, button, input, textarea, select {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+
+/* line 5, _application.scss */
+body {
+  background: #fff;
+  color: #393939;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent; }
+
+/* line 14, _application.scss */
+.wrapper {
+  background: #fff;
+  padding: 100px 0 150px;
+  text-align: center; }
+  /* line 18, _application.scss */
+  .wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4, .wrapper h5, .wrapper h6 {
+    color: #444751; }
+  /* line 21, _application.scss */
+  .wrapper h2 {
+    color: #444751;
+    font-size: 30px;
+    margin-bottom: 0px; }
+  /* line 26, _application.scss */
+  .wrapper h3 {
+    color: #71767e;
+    font-size: 20px; }
+
+/* line 31, _application.scss */
+.notice.alert {
+  border-radius: 0px 0 0 4px;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+/* line 37, _application.scss */
+.fa.fa-heart-o {
+  color: #FF5722;
+  cursor: pointer; }
+
+/* line 41, _application.scss */
+.fa.fa-heart-o:hover {
+  font-weight: 900; }
+
+/* line 44, _application.scss */
+input[type="text"] {
+  border: 1px solid #eee;
+  height: 50px;
+  padding: 0 10px;
+  width: 300px; }
+
+/* line 50, _application.scss */
+input[type="submit"] {
+  background: #27ae60;
+  border: 1px solid #27ae60;
+  color: #fff;
+  border-radius: 0;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  height: 50px;
+  padding: 0 22px; }
+
+/* line 61, _application.scss */
+input[type="submit"]:hover {
+  background: #24a259;
+  color: #fff;
+  text-decoration: none; }
+
+/* line 68, _application.scss */
+.intro .cta,
+.status .cta {
+  margin: 60px 0; }
+  /* line 70, _application.scss */
+  .intro .cta h5,
+  .status .cta h5 {
+    color: #444751;
+    padding: 30px 0; }
+  /* line 74, _application.scss */
+  .intro .cta .link__position,
+  .status .cta .link__position {
+    border-bottom: 1px dashed #ddd;
+    color: #71767E;
+    padding-bottom: 4px; }
+  /* line 79, _application.scss */
+  .intro .cta .link__position:hover,
+  .intro .cta .link__position:focus,
+  .status .cta .link__position:hover,
+  .status .cta .link__position:focus {
+    border-bottom: 1px dashed #71767E;
+    text-decoration: none; }
+
+/* line 87, _application.scss */
+.referral .referral-cta {
+  padding: 20px 0; }
+  /* line 89, _application.scss */
+  .referral .referral-cta h5 {
+    font-size: 16px;
+    margin: 30px 0; }
+  /* line 93, _application.scss */
+  .referral .referral-cta .social_share_link {
+    color: #fff !important;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    margin: 5px 5px 0 0;
+    width: 50px; }
+  /* line 101, _application.scss */
+  .referral .referral-cta .btn-twitter {
+    background-color: #00aced;
+    border-color: #00aced; }
+  /* line 105, _application.scss */
+  .referral .referral-cta .btn-twitter:hover {
+    background-color: #0079ba;
+    border-color: #0079ba; }
+  /* line 109, _application.scss */
+  .referral .referral-cta .btn-facebook {
+    background-color: #3b5998;
+    border-color: #3b5998; }
+  /* line 113, _application.scss */
+  .referral .referral-cta .btn-facebook:hover {
+    background-color: #082665;
+    border-color: #082665; }
+  /* line 117, _application.scss */
+  .referral .referral-cta .btn-linkedin {
+    background-color: #007bb6;
+    border-color: #007bb6; }
+  /* line 121, _application.scss */
+  .referral .referral-cta .btn-linkedin:hover {
+    background-color: #004883;
+    border-color: #004883; }
+  /* line 125, _application.scss */
+  .referral .referral-cta .btn-gplus {
+    background-color: #dd4b39;
+    border-color: #dd4b39; }
+  /* line 129, _application.scss */
+  .referral .referral-cta .btn-gplus:hover {
+    background-color: #aa1806;
+    border-color: #aa1806; }
+  /* line 133, _application.scss */
+  .referral .referral-cta .btn-email {
+    background-color: #3f3f3f;
+    border-color: #3f3f3f; }
+  /* line 137, _application.scss */
+  .referral .referral-cta .btn-email:hover {
+    background-color: #0c0c0c;
+    border-color: #0c0c0c; }
+/* line 142, _application.scss */
+.referral .referral-status .container {
+  border-top: 1px solid #ddd; }
+
+/* line 1, _header.scss */
+header {
+  background: transparent;
+  border-top: solid 4px #20944f; }
+  /* line 4, _header.scss */
+  header h1 {
+    border-bottom: 1px solid #DFF0D8;
+    margin: 8px 0; }
+    /* line 7, _header.scss */
+    header h1 a {
+      background: url("/images/logo/logo@2x.png") 0 0 no-repeat;
+      background-size: 108px;
+      height: 60px;
+      display: block;
+      position: relative;
+      text-indent: -900em; }
+
+@media (min-width: 992px) {
+  /* line 2, _mediaqueries.scss */
+  .container {
+    width: 960px; } }
+@media (min-width: 768px) {
+  /* line 7, _mediaqueries.scss */
+  .social_share_link {
+    width: 50px; } }
